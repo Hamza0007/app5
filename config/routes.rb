@@ -1,5 +1,8 @@
 App5::Application.routes.draw do
 
+  resources :pictures
+
+
   resources :posts do
     resources :comments , shallow: :true
 end
