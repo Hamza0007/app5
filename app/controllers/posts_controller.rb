@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
   # GET /posts
-  # GET /posts.json
-  def index
+  # GET /posts.json 
+ 
+  def inde
     @posts = Post.all
 
     respond_to do |format|
