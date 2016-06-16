@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json 
  
-  def 
+  def outoutou
     @posts = Post.all
 
     respond_to do |format|
