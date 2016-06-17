@@ -37,3 +37,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+
+#new gem 
+gem 'devise'

@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+#	Album.create(name: 'University Album')
+
+
+
+["Windows", "Linux", "Mac OS X"].each do |os|
+	OperatingSystem.find_or_create_by_name(os)
+end
